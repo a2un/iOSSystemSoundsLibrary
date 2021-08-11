@@ -23,6 +23,8 @@
 		8EA2C0BE1809BBBE004E4529 /* SystemSoundLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2C0BD1809BBBE004E4529 /* SystemSoundLibraryTests.m */; };
 		8EA2C0C91809BC76004E4529 /* SoundListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2C0C81809BC76004E4529 /* SoundListViewController.m */; };
 		8EA2C0CB1809BE07004E4529 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA2C0CA1809BE07004E4529 /* AudioToolbox.framework */; };
+		CC8F24E126C38ADF00857356 /* SystemSoundLibraryTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EA2C0B91809BBBE004E4529 /* SystemSoundLibraryTests-Info.plist */; };
+		CC8F24E226C38AE200857356 /* SystemSoundLibraryTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EA2C0B91809BBBE004E4529 /* SystemSoundLibraryTests-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,6 +208,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Anton Pauli";
 				TargetAttributes = {
+					8EA2C08B1809BBBE004E4529 = {
+						DevelopmentTeam = PR2UBZQFBM;
+					};
 					8EA2C0AF1809BBBE004E4529 = {
 						TestTargetID = 8EA2C08B1809BBBE004E4529;
 					};
@@ -216,6 +221,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA2C0A61809BBBE004E4529 /* Main_iPad.storyboard in Resources */,
+				CC8F24E126C38ADF00857356 /* SystemSoundLibraryTests-Info.plist in Resources */,
 				8EA2C0AB1809BBBE004E4529 /* Images.xcassets in Resources */,
 				8EA2C0A31809BBBE004E4529 /* Main_iPhone.storyboard in Resources */,
 				8EA2C09A1809BBBE004E4529 /* InfoPlist.strings in Resources */,
@@ -247,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA2C0BC1809BBBE004E4529 /* InfoPlist.strings in Resources */,
+				CC8F24E226C38AE200857356 /* SystemSoundLibraryTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,10 +406,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PR2UBZQFBM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SystemSoundLibrary/SystemSoundLibrary-Prefix.pch";
 				INFOPLIST_FILE = "SystemSoundLibrary/SystemSoundLibrary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.system-sounds.dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,10 +426,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PR2UBZQFBM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SystemSoundLibrary/SystemSoundLibrary-Prefix.pch";
 				INFOPLIST_FILE = "SystemSoundLibrary/SystemSoundLibrary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.system-sounds.dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
